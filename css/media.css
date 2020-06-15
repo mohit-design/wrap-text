@@ -230,10 +230,24 @@
 
 /*------- Grid CSS Ends -------*/
 
+@media only screen and (max-width: 767px) {
+
+	/*------- Wrapping Text Around Circle Section Starts -------*/
+
+.bg-wrap-text-circle { padding: 15px; }
+.img-with-desc > p {
+	margin-bottom: 15px;
+}
+
+/*------- Wrapping Text Around Circle Section Ends -------*/
+
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
 	/*------- Wrapping Text Around Circle Section Starts -------*/
 
+.bg-wrap-text-circle { padding: 30px 15px; }
 .img-with-desc > img {
 	display: block;
 	float: none;
@@ -248,6 +262,7 @@
 
 	/*------- Wrapping Text Around Circle Section Starts -------*/
 
+.bg-wrap-text-circle { padding: 30px 15px; }
 .img-with-desc > img {
 	height: 150px;
 	width: 150px;
